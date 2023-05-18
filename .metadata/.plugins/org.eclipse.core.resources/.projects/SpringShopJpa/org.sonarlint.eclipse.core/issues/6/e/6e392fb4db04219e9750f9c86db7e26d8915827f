@@ -1,0 +1,16 @@
+
+L
+java:S1451"&Add or update the header of this file.HÕRBLOCKERZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÏƒÅ‚1HÓRMINORZ
+CODE_SMELL
+m
+java:S1106
+"AMove this left curly brace to the beginning of next line of code.(ø”¹‰HØRMINORZ
+CODE_SMELL
+o	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8ªìÄ‚1HÒRMINORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'fr.fms.entites.Articles'.(›º‘Ù8ÏƒÅ‚1HÖRMINORZ
+CODE_SMELL

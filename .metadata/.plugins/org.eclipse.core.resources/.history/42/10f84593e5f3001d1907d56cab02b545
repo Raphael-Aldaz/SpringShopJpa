@@ -1,0 +1,7 @@
+package fr.fms.dao;
+
+import fr.fms.entites.Articles;
+
+public interface ArticleDao extends IEntityDao<Articles, Integer> {
+	
+}

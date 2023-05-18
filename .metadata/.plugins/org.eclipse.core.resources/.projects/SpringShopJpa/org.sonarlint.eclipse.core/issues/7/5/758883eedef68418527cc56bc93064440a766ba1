@@ -1,0 +1,56 @@
+
+y
+java:S1106:"AMove this left curly brace to the beginning of next line of code.(ˆ‰Ô•üÿÿÿÿ8ñ¢Æ£‚1H¥RMINORZ
+CODE_SMELL
+y
+java:S1106B"AMove this left curly brace to the beginning of next line of code.(ãéô±şÿÿÿÿ8ñ¢Æ£‚1HœRMINORZ
+CODE_SMELL
+m
+java:S1106*"AMove this left curly brace to the beginning of next line of code.(ˆÃ»·H£RMINORZ
+CODE_SMELL
+p
+java:S1213"8Move this variable to comply with Java Code Conventions.(şÖİÑüÿÿÿÿ8úÄ¯Ä‚1H—RMINORZ
+CODE_SMELL
+r
+java:S1128"@Remove this unused import 'org.hibernate.annotations.ManyToAny'.(äÄè,8Äƒ°Ä‚1H™RMINORZ
+CODE_SMELL
+y
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(§ß»éıÿÿÿÿ8ñ¢Æ£‚1H¢RMINORZ
+CODE_SMELL
+t
+java:S1106F"AMove this left curly brace to the beginning of next line of code.(Á»›ê8°¢ÀÄ‚1H§RMINORZ
+CODE_SMELL
+R
+java:S4926"Remove this "serialVersionUID".(‘Îê8ÁÊÀ£‚1H•RMINORZ
+CODE_SMELL
+t
+java:S1106."AMove this left curly brace to the beginning of next line of code.(Îüş8ñ¢Æ£‚1H˜RMINORZ
+CODE_SMELL
+y
+java:S1106>"AMove this left curly brace to the beginning of next line of code.(¸ûƒŸøÿÿÿÿ8ÁÊÀ£‚1HRMINORZ
+CODE_SMELL
+y
+java:S1106"AMove this left curly brace to the beginning of next line of code.(§Ÿğ–ÿÿÿÿÿ8ìˆò¥‚1HRMINORZ
+CODE_SMELL
+y
+java:S11062"AMove this left curly brace to the beginning of next line of code.(ƒÿ“ıÿÿÿÿ8½äı¥‚1H¦RMINORZ
+CODE_SMELL
+o	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8ÁÊÀ£‚1H›RMINORZ
+CODE_SMELL
+|	java:S103G"KSplit this 137 characters long line (which is greater than 120 authorized).(ØÅ“8ä¶ÖÄ‚1H”RMAJORZ
+CODE_SMELL
+y
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¼¼Š…şÿÿÿÿ8ñ¢Æ£‚1H¡RMINORZ
+CODE_SMELL
+L
+java:S1451"&Add or update the header of this file.H RBLOCKERZ
+CODE_SMELL
+t
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Š¯õÁ8ñ¢Æ£‚1H–RMINORZ
+CODE_SMELL
+t
+java:S11066"AMove this left curly brace to the beginning of next line of code.(Úô²Ô8ñ¢Æ£‚1H¤RMINORZ
+CODE_SMELL
+t
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(Ü©Ü8ñ¢Æ£‚1HŸRMINORZ
+CODE_SMELL

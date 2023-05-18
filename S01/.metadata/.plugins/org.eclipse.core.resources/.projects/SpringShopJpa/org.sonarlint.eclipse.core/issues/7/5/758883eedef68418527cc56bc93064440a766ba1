@@ -1,0 +1,10 @@
+
+l
+java:S1106"AMove this left curly brace to the beginning of next line of code.(÷ÈËƒHRMINORZ
+CODE_SMELL
+K
+java:S1451"&Add or update the header of this file.HRBLOCKERZ
+CODE_SMELL
+m
+java:S2094"BRemove this empty class, write its code or make it an "interface".(÷ÈËƒHRMINORZ
+CODE_SMELL

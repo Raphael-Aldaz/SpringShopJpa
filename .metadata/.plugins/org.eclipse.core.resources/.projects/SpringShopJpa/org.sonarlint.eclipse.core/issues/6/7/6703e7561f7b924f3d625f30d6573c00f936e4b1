@@ -1,0 +1,32 @@
+
+p	java:S106+"9Replace this use of System.out or System.err by a logger.(Ò—Öşúÿÿÿÿ8Ì¸ËÄ‚1HõRMAJORZ
+CODE_SMELL
+h	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HæRMINORZ
+CODE_SMELL
+L
+java:S1451"&Add or update the header of this file.HòRBLOCKERZ
+CODE_SMELL
+I	java:S923"Do not use varargs.(Í¤íŞıÿÿÿÿ8Ì¥‚1HçRINFOZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(»„Ìıüÿÿÿÿ8–Œ¢Å‚1HèRMAJORZ
+CODE_SMELL
+m
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘HöRMINORZ
+CODE_SMELL
+y
+java:S1106*"AMove this left curly brace to the beginning of next line of code.(É”Ü™ùÿÿÿÿ8Ì¸ËÄ‚1HåRMINORZ
+CODE_SMELL
+y
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Í¤íŞıÿÿÿÿ8Ì¥‚1HóRMINORZ
+CODE_SMELL
+r
+java:S4604"GExclude from the auto-configuration mechanism the beans you don't need.(ûª¢FHôRMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'fr.fms.entites.Category'.(é è8Ïš‘Å‚1HïRMINORZ
+CODE_SMELL
+‰	java:S109*"RAssign this magic number 6 to a well-named constant, and use the constant instead.(É”Ü™ùÿÿÿÿ8–Œ¢Å‚1HäRMAJORZ
+CODE_SMELL
+r
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¥Ü¾äüÿÿÿÿHñRMINORZ
+CODE_SMELL

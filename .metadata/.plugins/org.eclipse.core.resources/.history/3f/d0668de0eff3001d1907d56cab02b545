@@ -1,0 +1,34 @@
+package fr.fms;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import fr.fms.dao.ArticleDao;
+import fr.fms.dao.CategoryDao;
+import fr.fms.entites.Articles;
+import fr.fms.entites.Category;
+
+@SpringBootApplication
+public class SpringShopJpaApplication implements CommandLineRunner {
+	@Autowired
+	private CategoryDao categoryDao;
+	
+	@Autowired
+	private ArticleDao articleDao;
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringShopJpaApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		articleDao.save(new Articles("S14", "Samsung", 1500));
+		for(Articles article : articleDao.findByBrandContains("ung")){
+			System.out.println(article);
+		}
+		
+	}
+
+}
