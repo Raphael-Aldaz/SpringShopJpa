@@ -1,0 +1,26 @@
+
+l
+java:S1106"AMove this left curly brace to the beginning of next line of code.(±æÝ&HíRMINORZ
+CODE_SMELL
+ê
+java:S4605"µ'ArticleServices' is not reachable by @ComponentScan or @SpringBootApplication. Either move it to a package configured in @ComponentScan or update your @ComponentScan configuration.(µÒæ†þÿÿÿÿHôRCRITICALZ
+CODE_SMELL
+i
+java:S4288"=Remove this annotation and use constructor injection instead.(êæÄÞHñRMAJORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÊ¼ÅþÿÿÿÿHóRMINORZ
+CODE_SMELL
+L
+java:S1451"&Add or update the header of this file.HïRBLOCKERZ
+CODE_SMELL
+r
+java:S1106"AMove this left curly brace to the beginning of next line of code.(µÒæ†þÿÿÿÿHëRMINORZ
+CODE_SMELL
+r
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ûÊ¼ÅþÿÿÿÿHìRMINORZ
+CODE_SMELL
+m
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¨çµšHîRMINORZ
+CODE_SMELL
+h	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HðRMINORZ
+CODE_SMELL

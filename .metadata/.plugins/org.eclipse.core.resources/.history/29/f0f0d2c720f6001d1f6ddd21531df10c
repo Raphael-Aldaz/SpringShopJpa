@@ -1,0 +1,140 @@
+package fr.fms;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.Scanner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
+
+import fr.fms.dao.ArticleDao;
+import fr.fms.dao.CategoryDao;
+import fr.fms.entities.Article;
+import fr.fms.entities.Category;
+
+
+
+@SpringBootApplication
+public class SpringShopJpaTpApplication implements CommandLineRunner {
+	@Autowired
+	public ArticleDao articles;
+	@Autowired
+	public CategoryDao categories;
+	
+	
+	
+	private static final int PAGE_SIZE = 5;
+	
+	public static final int MAX_STRING_LENGTH = 50;
+	public static final String COLOR_GREEN_BG = "\u001B[42m";
+	public static final String COLOR_RESET_BG ="\u001B[0m";
+	public static final String COLOR_WHITE_BG = "\u001B[47m";
+	public static final String COLOR_BLACK = "\u001B[30m";
+	public static final String COLOR_RED = "\u001B[31m";
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(SpringShopJpaTpApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+
+		 Scanner scanner = new Scanner(System.in);
+	        int currentPage = 0;
+	        boolean exit = false;
+
+	        
+
+    		
+	         
+	        while (!exit) {
+
+	      	    PageRequest pageRequest = PageRequest.of(currentPage, PAGE_SIZE, Sort.by("id").ascending());
+	      	    Page<Article> allData = articles.findAll(pageRequest);
+	        	displayFormationPagination(allData);
+
+
+	            System.out.println("Commandes :");
+	            System.out.println("n - Page suivante");
+	            System.out.println("p - Page précédente");
+	            System.out.println("q - Quitter");
+
+	            String input = scanner.next();
+
+	            switch (input) {
+	                case "n":
+	                	if(currentPage +1  < allData.getTotalPages()) {
+	                		currentPage++;
+	                	}
+	                	
+	                    break;
+	                case "p":
+	                    if (currentPage > 0) {
+	                        currentPage--;
+	                    }
+	                    break;
+	                case "q":
+	                    exit = true;
+	                    break;
+	                default:
+	                    System.out.println("Commande invalide");
+	            }
+	        }
+
+	        scanner.close();
+	    }
+	
+    public void displayFormationPagination(Page<Article> list) {
+  	  	System.out.println("----------------------------------------------------------------------------------");
+  	  	System.out.println(COLOR_GREEN_BG + "      Bienvenue dans notre Shop ! Voici les articles disponibles !       " + COLOR_RESET_BG);
+  	  	System.out.println("----------------------------------------------------------------------------------");
+        
+        Page<Article> page = list;
+
+        System.out.printf("Page %d/%d%n", page.getNumber() + 1, page.getTotalPages());
+        System.out.println("----------------------------------------------------------------------------------");
+        System.out.printf("|%-5s |%-45s |%-15s |%-8s |%n", "Id", "DESCRIPTION", "BRAND", "PRIX");
+        System.out.println("----------------------------------------------------------------------------------");
+
+        page.getContent().forEach(article -> {
+            System.out.printf("|%-5d |%-45s |%-15s |%-8.2f€ |%n", article.getId(), article.getDescription(),
+                    article.getBrand(), article.getPrice());
+        });
+
+        System.out.println("----------------------------------------------------------------------------------");
+    }
+	
+    public static void displayMenu() {
+    	System.out.printf("---------------------------------------------------------%n");
+		System.out.printf("Que voulez vous faire ? Entrez le numéro correspondant : %n");
+		System.out.printf("---------------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","1-"," Afficher tout les articles ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","1-"," Ajouter un article ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","2-"," Supprimer un article ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","3-"," Modifier un article ");
+		System.out.printf("--------------------------------------------------%n");;
+		System.out.printf("|%-5s |%-40s |%n","4-"," Afficher un article ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","5-"," Ajouter une catégorie ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","6-"," Supprimer une catégorie ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","7-"," Modifier une catégorie ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","8-"," Afficher une catégorie ");
+		System.out.printf("--------------------------------------------------%n");
+		System.out.printf("|%-5s |%-40s |%n","9-"," Afficher les articles par catégorie ");
+		System.out.printf("--------------------------------------------------%n");
+    }
+}

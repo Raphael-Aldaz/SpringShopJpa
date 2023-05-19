@@ -1,0 +1,152 @@
+
+k	java:S106W"9Replace this use of System.out or System.err by a logger.(Â²×å8Î„íü‚1H÷RMAJORZ
+CODE_SMELL
+n
+java:S19434"6Remove this use of constructor "Scanner(InputStream)".(ù ƒ‘üÿÿÿÿ8ÉÁ‰ü‚1H—RMINORZ
+CODE_SMELL
+L
+java:S1451"&Add or update the header of this file.HÚ
+RBLOCKERZ
+CODE_SMELL
+k	java:S106Z"9Replace this use of System.out or System.err by a logger.(±şÑ8Î„íü‚1HöRMAJORZ
+CODE_SMELL
+h	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HÖ
+RMINORZ
+CODE_SMELL
+_
+java:S1602g",Remove useless curly braces around statement(ä‹½¶8²»êû‚1HŞRMINORZ
+CODE_SMELL
+y
+java:S11068"AMove this left curly brace to the beginning of next line of code.(” ÿÿÿÿÿ8ÉÁ‰ü‚1H“RMINORZ
+CODE_SMELL
+k	java:S106d"9Replace this use of System.out or System.err by a logger.(Â²×å8ÔàÁı‚1HÇRMAJORZ
+CODE_SMELL
+t
+java:S1106B"AMove this left curly brace to the beginning of next line of code.(™Ïêƒ8Ïõãú‚1H¯RMINORZ
+CODE_SMELL
+q
+java:S1213 "?Move this static variable to comply with Java Code Conventions.(‚üÖ8²»êû‚1HÛRMINORZ
+CODE_SMELL
+±
+java:S1120G"yMake this line start after 10 spaces instead of 22 in order to indent the code consistently. (Indentation level is at 2.)(“Û÷üÿÿÿÿ8ÉÁ‰ü‚1HRMINORZ
+CODE_SMELL
+y
+java:S4604"GExclude from the auto-configuration mechanism the beans you don't need.(ûª¢F8¨°½ù‚1HïRMAJORZ
+CODE_SMELL
+¬
+java:S1120H"yMake this line start after 12 spaces instead of 26 in order to indent the code consistently. (Indentation level is at 2.)(Í·ı¥8ÉÁ‰ü‚1HRMINORZ
+CODE_SMELL
+k	java:S1061"9Replace this use of System.out or System.err by a logger.(È£ö8Î„íü‚1HìRMAJORZ
+CODE_SMELL
+k	java:S106;"9Replace this use of System.out or System.err by a logger.(¡÷»œ8Î„íü‚1HòRMAJORZ
+CODE_SMELL
+j	java:S106O"9Replace this use of System.out or System.err by a logger.(Á¬‰!8Î„íü‚1HŠRMAJORZ
+CODE_SMELL
+k	java:S106h"9Replace this use of System.out or System.err by a logger.(çàÓÎ8ÔàÁı‚1HÈRMAJORZ
+CODE_SMELL
+k	java:S106c"9Replace this use of System.out or System.err by a logger.(¨’ãÉ8œ—ëü‚1HŞRMAJORZ
+CODE_SMELL
+¬
+java:S1120h"yMake this line start after 10 spaces instead of 12 in order to indent the code consistently. (Indentation level is at 2.)(çàÓÎ8²»êû‚1HÚRMINORZ
+CODE_SMELL
+k	java:S106e"9Replace this use of System.out or System.err by a logger.(î¯ãÑ8ÔàÁı‚1HÆRMAJORZ
+CODE_SMELL
+I	java:S923/"Do not use varargs.(Í¤íŞıÿÿÿÿ8şìÈø‚1HŞRINFOZ
+CODE_SMELL
+r
+java:S1106U"AMove this left curly brace to the beginning of next line of code.(äİôŒşÿÿÿÿHÑRMINORZ
+CODE_SMELL
+}
+java:S3242U"EUse 'java.lang.Iterable' here; it is a more general type than 'List'.(äİôŒşÿÿÿÿ8ÔàÁı‚1HÃRMINORZ
+CODE_SMELL
+ª
+java:S11201"wMake this line start after 4 spaces instead of 6 in order to indent the code consistently. (Indentation level is at 2.)(È£ö8ûÁü‚1H²RMINORZ
+CODE_SMELL
+«
+java:S1120O"yMake this line start after 10 spaces instead of 22 in order to indent the code consistently. (Indentation level is at 2.)(Á¬‰!8ÉÁ‰ü‚1H’RMINORZ
+CODE_SMELL
+k	java:S106l"9Replace this use of System.out or System.err by a logger.(î¯ãÑ8ÔàÁı‚1HÉRMAJORZ
+CODE_SMELL
+Ê
+java:S11920"“Define a constant instead of duplicating this literal "----------------------------------------------------------------------------------" 6 times.(î¯ãÑ8åıú‚1HîRCRITICALZ
+CODE_SMELL
+y
+java:S1106G"AMove this left curly brace to the beginning of next line of code.(“Û÷üÿÿÿÿ8ÉÁ‰ü‚1H•RMINORZ
+CODE_SMELL
+r
+java:S1213#"?Move this static variable to comply with Java Code Conventions.(ÜÎ’Î8“º…ù‚1Hå
+RMINORZ
+CODE_SMELL
+ª
+java:S1120_"wMake this line start after 4 spaces instead of 8 in order to indent the code consistently. (Indentation level is at 2.)(Âõíˆ8ÔàÁı‚1HÁRMINORZ
+CODE_SMELL
+s	java:S1253"<This block of commented-out lines of code should be removed.(ñ±Ÿüûÿÿÿÿ8ÉÁ‰ü‚1H–RMAJORZ
+CODE_SMELL
+k	java:S106<"9Replace this use of System.out or System.err by a logger.(â‚8Î„íü‚1HïRMAJORZ
+CODE_SMELL
+p	java:S106>"9Replace this use of System.out or System.err by a logger.(­¦ı¼úÿÿÿÿ8Î„íü‚1HñRMAJORZ
+CODE_SMELL
+t
+java:S1106"AMove this left curly brace to the beginning of next line of code.(õ”ìÓ8ÉÁ‰ü‚1H”RMINORZ
+CODE_SMELL
+r
+java:S1213$"?Move this static variable to comply with Java Code Conventions.(Ä›‹œ8“º…ù‚1HØ
+RMINORZ
+CODE_SMELL
+i
+java:S1172U"1Remove this unused method parameter "pageNumber".(äİôŒşÿÿÿÿ8ÔàÁı‚1HÄRMAJORZ
+CODE_SMELL
+ª
+java:S11209"xMake this line start after 6 spaces instead of 14 in order to indent the code consistently. (Indentation level is at 2.)(ÜÄ¤8ÉÁ‰ü‚1HRMINORZ
+CODE_SMELL
+y
+java:S1106/"AMove this left curly brace to the beginning of next line of code.(Í¤íŞıÿÿÿÿ8Ïõãú‚1HRMINORZ
+CODE_SMELL
+w
+java:S1213'"?Move this static variable to comply with Java Code Conventions.(Êôîøıÿÿÿÿ8“º…ù‚1HĞ
+RMINORZ
+CODE_SMELL
+ª
+java:S1120^"wMake this line start after 2 spaces instead of 4 in order to indent the code consistently. (Indentation level is at 2.)(“èë®8ÔàÁı‚1H¿RMINORZ
+CODE_SMELL
+r
+java:S1213%"?Move this static variable to comply with Java Code Conventions.(×…´8“º…ù‚1Hã
+RMINORZ
+CODE_SMELL
+p	java:S106="9Replace this use of System.out or System.err by a logger.(Œ‰îúÿÿÿÿ8Î„íü‚1HğRMAJORZ
+CODE_SMELL
+t
+java:S1106^"AMove this left curly brace to the beginning of next line of code.(“èë®8ÔàÁı‚1HÂRMINORZ
+CODE_SMELL
+±
+java:S1120L"yMake this line start after 10 spaces instead of 22 in order to indent the code consistently. (Indentation level is at 2.)(œ·£Ÿùÿÿÿÿ8ÉÁ‰ü‚1H‘RMINORZ
+CODE_SMELL
+r
+java:S1213&"?Move this static variable to comply with Java Code Conventions.(Çôáè8“º…ù‚1Hİ
+RMINORZ
+CODE_SMELL
+k	java:S1060"9Replace this use of System.out or System.err by a logger.(î¯ãÑ8Î„íü‚1HîRMAJORZ
+CODE_SMELL
+P
+java:S2211g"Specify a type for: 'article'(ä‹½¶8²»êû‚1HßRMAJORZ
+CODE_SMELL
+m
+java:S1106)"AMove this left curly brace to the beginning of next line of code.(Çµí‘Hâ
+RMINORZ
+CODE_SMELL
+k	java:S106X"9Replace this use of System.out or System.err by a logger.(î¯ãÑ8Î„íü‚1HóRMAJORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(î¯ãÑ8Î„íü‚1HíRMAJORZ
+CODE_SMELL
+±
+java:S1120D"yMake this line start after 10 spaces instead of 22 in order to indent the code consistently. (Indentation level is at 2.)(Ğóšøÿÿÿÿ8ÉÁ‰ü‚1HRMINORZ
+CODE_SMELL
+w
+java:S1213""?Move this static variable to comply with Java Code Conventions.(À—©¯øÿÿÿÿ8“º…ù‚1HÔ
+RMINORZ
+CODE_SMELL
+ª
+java:S1120W"wMake this line start after 4 spaces instead of 6 in order to indent the code consistently. (Indentation level is at 2.)(Â²×å8ÔàÁı‚1HÀRMINORZ
+CODE_SMELL
+k	java:S106["9Replace this use of System.out or System.err by a logger.(î¯ãÑ8¢Òü‚1HRMAJORZ
+CODE_SMELL

@@ -1,0 +1,32 @@
+
+L
+java:S1451"&Add or update the header of this file.HãRBLOCKERZ
+CODE_SMELL
+m
+java:S1106"AMove this left curly brace to the beginning of next line of code.(™İ£“HİRMINORZ
+CODE_SMELL
+m
+java:S1106'"AMove this left curly brace to the beginning of next line of code.(Á»›êHâRMINORZ
+CODE_SMELL
+m
+java:S1106#"AMove this left curly brace to the beginning of next line of code.(Ò’Š¯HáRMINORZ
+CODE_SMELL
+r
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(ú›ŠøøÿÿÿÿHàRMINORZ
+CODE_SMELL
+r
+java:S1106"AMove this left curly brace to the beginning of next line of code.(§ß»éıÿÿÿÿHßRMINORZ
+CODE_SMELL
+r
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Áò¬½ÿÿÿÿÿHŞRMINORZ
+CODE_SMELL
+K
+java:S4926"Remove this "serialVersionUID".(‘ÎêHåRMINORZ
+CODE_SMELL
+h	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HäRMINORZ
+CODE_SMELL
+r
+java:S1106"AMove this left curly brace to the beginning of next line of code.(«†óìıÿÿÿÿHÜRMINORZ
+CODE_SMELL
+J	java:S113"'Add a new line at the end of this file.HÛRMINORZ
+CODE_SMELL

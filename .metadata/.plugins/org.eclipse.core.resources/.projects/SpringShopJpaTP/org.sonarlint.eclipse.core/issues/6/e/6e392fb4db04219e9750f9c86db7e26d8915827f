@@ -1,0 +1,9 @@
+
+h	java:S105"EReplace all tab characters in this file by sequences of white-spaces.HçRMINORZ
+CODE_SMELL
+m
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¼áèøHèRMINORZ
+CODE_SMELL
+L
+java:S1451"&Add or update the header of this file.HæRBLOCKERZ
+CODE_SMELL

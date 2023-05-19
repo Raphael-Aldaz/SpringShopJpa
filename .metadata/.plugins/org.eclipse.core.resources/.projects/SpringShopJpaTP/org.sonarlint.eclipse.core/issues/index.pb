@@ -1,3 +1,19 @@
 
 Y
 )src/main/resources/application.properties,0\6\06f65155ec73600b9fc5c4dc2883d4bb84d8e284
+]
+-src/main/java/fr/fms/entities/Categories.java,f\9\f92c6ee912352da17f337da2fd825a6ffd0078f6
+[
++src/main/java/fr/fms/entities/Articles.java,4\1\4152540194bf839b46cb18bc06c8c4fa3705c563
+X
+(src/main/java/fr/fms/dao/ArticleDao.java,4\f\4fbe62f344bdaa6095afb94413a8de4c8102e861
+Y
+)src/main/java/fr/fms/dao/CategoryDao.java,6\e\6e392fb4db04219e9750f9c86db7e26d8915827f
+d
+4src/main/java/fr/fms/SpringShopJpaTpApplication.java,a\f\af9ae71d3e4ca6bdf96d4d89d9c1de0168fd7df9
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+[
++src/main/java/fr/fms/entities/Category.java,e\a\eaca6e40994962bef6ae0ebb92777e3480df3e22
+Z
+*src/main/java/fr/fms/entities/Article.java,0\0\008cfb5c811f8f4e9c3669edaeb153fa7014b2b7

@@ -1,0 +1,71 @@
+
+y
+java:S1106-"AMove this left curly brace to the beginning of next line of code.(ƒÿ“‎ÿÿÿÿ8ּדר‚1Hמ
+RMINORZ
+CODE_SMELL
+y
+java:S11066"AMove this left curly brace to the beginning of next line of code.(¸ûƒרÿÿÿÿ8ּדר‚1Hן
+RMINORZ
+CODE_SMELL
+t
+java:S1106 "AMove this left curly brace to the beginning of next line of code.(נ¶…Ê8ּדר‚1Hנ
+RMINORZ
+CODE_SMELL
+R
+java:S4926"Remove this "serialVersionUID".(‘־ך8ּדר‚1Hס
+RMINORZ
+CODE_SMELL
+y
+java:S1106'"AMove this left curly brace to the beginning of next line of code.(§ß»י‎ÿÿÿÿ8ּדר‚1Hע
+RMINORZ
+CODE_SMELL
+t
+java:S1106D"AMove this left curly brace to the beginning of next line of code.(ֱ»›ך8ּדר‚1Hף
+RMINORZ
+CODE_SMELL
+t
+java:S1106*"AMove this left curly brace to the beginning of next line of code.(־ü‏8ּדר‚1Hפ
+RMINORZ
+CODE_SMELL
+o	java:S105"EReplace all tab characters in this file by sequences of white-spaces.8ּדר‚1Hץ
+RMINORZ
+CODE_SMELL
+y
+java:S1106"AMove this left curly brace to the beginning of next line of code.(§נ–ÿÿÿÿÿ8ּדר‚1Hצ
+RMINORZ
+CODE_SMELL
+y
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¼¼…‏ÿÿÿÿ8ּדר‚1Hק
+RMINORZ
+CODE_SMELL
+L
+java:S1451"&Add or update the header of this file.Hר
+RBLOCKERZ
+CODE_SMELL
+m
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¯ץֱHש
+RMINORZ
+CODE_SMELL
+t
+java:S11060"AMove this left curly brace to the beginning of next line of code.(Úפ²װ8ּדר‚1Hת
+RMINORZ
+CODE_SMELL
+y
+java:S11063"AMove this left curly brace to the beginning of next line of code.(ˆ‰װ•üÿÿÿÿ8ּדר‚1Hû
+RMINORZ
+CODE_SMELL
+y
+java:S1106<"AMove this left curly brace to the beginning of next line of code.(‘ֹ…ßÿÿÿÿÿ8ּדר‚1Hü
+RMINORZ
+CODE_SMELL
+Q	java:S113"'Add a new line at the end of this file.8ּדר‚1H‎
+RMINORZ
+CODE_SMELL
+y
+java:S11069"AMove this left curly brace to the beginning of next line of code.(דיפ±‏ÿÿÿÿ8ּדר‚1H‏
+RMINORZ
+CODE_SMELL
+y
+java:S1106?"AMove this left curly brace to the beginning of next line of code.(ÿ¸Ùשÿÿÿÿ8ּדר‚1Hÿ
+RMINORZ
+CODE_SMELL

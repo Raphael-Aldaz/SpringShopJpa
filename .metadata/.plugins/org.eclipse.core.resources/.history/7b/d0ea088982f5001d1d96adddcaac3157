@@ -1,0 +1,28 @@
+package fr.fms.dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import fr.fms.entities.Article;
+import fr.fms.entities.Articles;
+
+@Repository
+public interface ArticleDao extends JpaRepository<Articles, Long> {
+	List<Articles> findAll();
+	//Article By id
+	List<Articles>findArticleById(long id);
+	//All articles that contains x description and y brand
+	List<Articles> findByBrandAndDescription(String brand, String description);
+	
+
+	
+	List<Articles> findByBrand(String brand);
+	List<Articles> findByBrandContains(String brand);
+	List<Articles> findByCategoryId(Long categoryId); 
+
+	
+	
+
+}
